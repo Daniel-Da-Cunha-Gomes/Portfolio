@@ -1,4 +1,4 @@
-const logotext = "Daniel Da Cunha Gomes";
+const logotext = "DDCG";
 const meta = {
     title: "Daniel Da Cunha Gomes",
     description: "Je suis Daniel Da Cunha Gomes, Administrateur Réseau Junior et étudiant en Master spécialisé en cloud, sécurité et infrastructure réseau.",
