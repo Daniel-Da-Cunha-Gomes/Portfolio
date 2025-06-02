@@ -23,6 +23,11 @@ const dataabout = {
 const worktimeline = [
     {
         jobtitle: "Alternant Administrateur Réseau",
+        where: "AEF Info",
+        date: "2024/2026",
+    },
+    {
+        jobtitle: "Alternant Administrateur Réseau",
         where: "Ynov Paris",
         date: "2023/2024",
     },
@@ -45,24 +50,24 @@ const worktimeline = [
 
 const skills = [
     {
-        name: "VLAN & Routage",
-        value: 90,
-    },
-    {
         name: "Windows/Linux Server",
         value: 85,
     },
     {
         name: "Cybersécurité",
-        value: 80,
+        value: 70,
     },
     {
         name: "Cisco",
-        value: 75,
+        value: 85,
     },
     {
         name: "Azure",
-        value: 70,
+        value: 75,
+    },
+    {
+        name: "AWS",
+        value: 75,
     },
 ];
 
@@ -122,6 +127,35 @@ const dataportfolio = [
         description: "Optimisation des performances systèmes : Analyse des serveurs pour améliorer la vitesse, la sécurité et la fiabilité des applications.",
         link: "#",
     },
+    {
+        img: "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+        description: "Sécurisation des réseaux d'entreprise : Mise en place de VPN et d'outils de sécurité pour protéger les échanges internes et externes.",
+        link: "#",
+    },
+    {
+        img: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+        description: "Optimisation des performances systèmes : Analyse des serveurs pour améliorer la vitesse, la sécurité et la fiabilité des applications.",
+        link: "#",
+    },
+    {
+        img: "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+        description: "Sécurisation des réseaux d'entreprise : Mise en place de VPN et d'outils de sécurité pour protéger les échanges internes et externes.",
+        link: "#",
+    },
+    {
+        img: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+        description: "Optimisation des performances systèmes : Analyse des serveurs pour améliorer la vitesse, la sécurité et la fiabilité des applications.",
+        link: "#",
+    },{
+        img: "https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+        description: "Sécurisation des réseaux d'entreprise : Mise en place de VPN et d'outils de sécurité pour protéger les échanges internes et externes.",
+        link: "#",
+    },
+    {
+        img: "https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+        description: "Optimisation des performances systèmes : Analyse des serveurs pour améliorer la vitesse, la sécurité et la fiabilité des applications.",
+        link: "#",
+    },
 ];
 
 
@@ -145,6 +179,11 @@ const certifications = [
         description: "Certification Azure couvrant les concepts de base du cloud, les services cloud Microsoft et la gestion des solutions cloud.",
         link: "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/"
     },
+    {
+    title: "AWS Certified Cloud Practitioner (CLF-C02)",
+    description: "Certification AWS d’entrée de gamme validant la compréhension des concepts fondamentaux du cloud, des services AWS, de la sécurité, de la facturation, et du support.",
+    link: "https://aws.amazon.com/certification/certified-cloud-practitioner/"
+},
 ];
 
 export {

@@ -75,7 +75,9 @@ export const About = () => {
               <p><strong>Administration Système :</strong> DNS/FTP/MDT/WDS (Windows), Linux (Ubuntu, Debian, Kali).</p>
               <p><strong>Hardware :</strong> Montage et dépannage PC.</p>
               <p><strong>Outils :</strong> VMware, Zendesk, GLPI, TeamViewer.</p>
-              <p><strong>Certifications :</strong> Microsoft Certified: Azure Fundamentals (AZ-900)</p>
+              <p><strong>Certifications :</strong> Microsoft Certified: Azure Fundamentals (AZ-900)<br/>AWS Certified Cloud Practitioner (CLF-C02)</p>
+              
+              
             </div>
             {skills.map((data, i) => {
               return (
@@ -131,7 +133,7 @@ export const About = () => {
       </Row>
 
         
-        {/* Certifications Section */}
+        {/* Certifications Section
         <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Certifications</h3>
@@ -141,7 +143,7 @@ export const About = () => {
               <li><strong>Microsoft Certified:</strong> Azure Fundamentals (AZ-900)</li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
         
         {/* Education Section */}
         <Row className="sec_sp">
@@ -162,7 +164,7 @@ export const About = () => {
             <h3 className="color_sec py-4">Centres d’intérêt</h3>
           </Col>
           <Col lg="7">
-            <p>Sport (tennis, boxe), cinéma, mécanique.</p>
+            <p>Sport (tennis, boxe) <br/>Cinéma <br/>Mécanique.</p>
           </Col>
         </Row>
       </Container>
